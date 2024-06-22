@@ -1,0 +1,87 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 45px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 18px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-name-button {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #dd1264;
+  border-radius: 10px;
+  height: 45px;
+  width: 225px;
+  margin-top: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+.last-name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.last-name-button {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #dd1264;
+  border-radius: 10px;
+  height: 45px;
+  width: 225px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+
+.name {
+  text-align: center;
+  background-color: #fddddb;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  color: #000000;
+  border-radius: 10px;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-bottom: 50px;
+  padding-right: 100px;
+  margin: 25px;
+}
